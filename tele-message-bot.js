@@ -2,7 +2,7 @@ function sendMessage() {
   //find message box using contenteditable attribute
   const messageBox = document.querySelector('div[contenteditable="true"]');
   //message
-  const message = "don't forget to drink water!";
+  const message = "don't be fooled!";
   if (messageBox) {
     //set the message
     messageBox.innerHTML = message;
